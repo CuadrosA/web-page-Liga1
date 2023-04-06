@@ -2,4 +2,4 @@
 # La primera es la zona principal en la cual se cargará la actividad
 # La segunda es la zone-test en el cual realizaré prácticas sobre codificación en 
 # CSS, HTML e incluso Javascript con el fin de desarrollar la página y tener
-# un ambiente de documentación y pruebas de funciones
+# un ambiente de documentación y pruebas de funciones!
