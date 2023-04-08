@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    /* Patrón de fondo*/
+    background-color: #6c5ce7;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23dfe6e9' fill-opacity='0.42'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    color: #1e272e;
+    color: #fff;
+    font-size: 16px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container{
+    width: auto;
+    margin: auto;
+}
+
+/*Navegación*/
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+    background-color: #423c3c;
+}
+
+.nav-logo{
+    width: 180px;
+}
+
+/* Navbar Left */
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    height: auto;
+    padding: 20px 10px;
+    /* border: #000000 solid 1px; */
+}
+
+.nav-main ul li:hover {
+    opacity: 75%;
+}
+
+.nav-main ul li a {
+    padding: 2px;
+}
+
+.nav-main ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+hr {
+    margin: 10px 0;
+}
